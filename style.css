@@ -1,0 +1,145 @@
+/*Main code*/
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+.logo{
+  height: 50px;
+}
+.tile-image{
+  height: 200px;
+  float: left;
+  margin-right: 10%;
+}
+.right{
+  float: right;
+}
+.left{
+  float: left;
+}
+.creative{
+  color: #191970;
+}
+h1{
+  font-size: 5rem;
+}
+div.card{
+  height: 300px;
+  width: 650px;
+  display: inline-block;
+}
+footer{
+  color: #191970;
+  text-align: right;
+  width: 100%;
+  clear: both;  
+}
+
+/* Design for mobile displays from width 360px-600px*/
+@media (min-width: 360px) and (max-width: 600px){
+  .main {
+    flex: 1;
+  }
+  body{
+    background-color: #DBDFEA; 
+    margin-left: 10%;
+  }
+  .logo{
+    height: 30px;
+    }
+  .tile-image{
+    width: 90%;
+    display: inline;
+    object-fit: cover;
+    position: relative;
+  }
+  .right img{
+    margin-top: 100px;
+  }
+  .left img{
+    margin-top: 50px;
+  }
+  p{
+    clear: both;
+  }
+  h2{
+    clear: both;
+  }
+  h1{
+    font-size: 2rem;
+    text-align: center;
+  }
+  div.card{
+    width: 100%;
+    height: 50%;
+    display:block;
+    text-align: justify;
+    margin-bottom: 10%;
+  }
+}
+  /*Design for tablet displays from width 601px-900px */
+@media (min-width: 601px) and (max-width: 900px){
+  body{
+    background-color: #ACB1D6;
+  }
+  .logo{
+    height: 40px;
+    }
+  .tile-image{
+    width: 60%;
+    float: left;
+    margin-right: 7.5%;
+    display: inline;
+    object-fit: cover;
+    position: relative;
+  }
+  h1{
+    font-size: 3rem;
+    text-align: center;
+  }
+  div.card{
+    display: block;
+    width: 100%;
+    height: 50%;
+    text-align: justify;
+    margin-bottom: 10%;
+  }
+  
+}
+/*Design for desktop displays from width 901px-1920px*/
+@media (min-width: 901px) and (max-width: 1920px){
+
+  body{
+    background-color: #8294C4;
+  }
+  .logo{
+    height: 50px;
+  }
+  .tile-image{
+    width: 40%;
+    float: left;
+    margin-right: 10%;
+  }
+  .right{
+    float: right;
+  }
+  .left{
+    float: left;
+  }
+  h1{
+    font-size: 5rem;
+  }
+  div.card{
+    
+    width: 40%;
+    display: inline-block;
+  }
+
+}
